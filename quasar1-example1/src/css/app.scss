@@ -1,0 +1,17 @@
+// app global css in SCSS form
+
+.footer {
+  &-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    a {
+      color: #fff;
+      text-decoration: none;
+      &.router-link-exact-active {
+        border-bottom: 2px solid #fff;
+      }
+    }
+  }
+}
